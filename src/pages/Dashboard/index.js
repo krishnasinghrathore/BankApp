@@ -14,13 +14,13 @@ import MonthlyEarning from "./MonthlyEarning";
 import SocialSource from "./SocialSource";
 import ActivityComp from "./ActivityComp";
 import TopCities from "./TopCities";
-import LatestTranaction from "./LatestTranaction";
 
 //Import Breadcrumb
 import Breadcrumbs from '../../components/Common/Breadcrumb';
 
 //i18n
 import { withNamespaces } from 'react-i18next';
+import EcommerceCustomers from "../ReportingModule/EcommerceCustomers";
 
 class Dashboard extends Component {
     constructor(props) {
@@ -125,7 +125,7 @@ class Dashboard extends Component {
 
                         <Row>
                             <Col lg="12">
-                                <LatestTranaction />
+                                <EcommerceCustomers />
                             </Col>
                         </Row>
                     </Container>
